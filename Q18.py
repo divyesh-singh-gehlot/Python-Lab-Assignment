@@ -1,3 +1,4 @@
-even = [2,4,6,8,10,12,14,16,18,20]
+a = int(input("Enter First Number: "))
+b = int(input("Enter Second Number: "))
 
-print(len(even))
+print("a is greater") if (a>b) else print("b is greater")
